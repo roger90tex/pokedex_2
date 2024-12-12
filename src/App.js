@@ -4,6 +4,16 @@ import pokeApi from "./api/pokeApi";
 import usePokemonSearch from "./hooks/usePokemonSearch";
 import "./App.css";
 import NotFound from "./NotFound";
+import {
+  Container,
+  Title,
+  Form,
+  Input,
+  PokemonList,
+  PokemonItem,
+  PokemonImage,
+  PaginationButton,
+} from "./components/StyledComponents.js";
 
 const Home = () => {
   const [pokemons, setPokemons] = useState([]);
